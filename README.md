@@ -6,3 +6,4 @@ Git is probably one of the top tools I use for code management and something I p
   * [Cloning a repositiory and adding an SSH key](Cloning_a_repository_and_adding_an_SSH_key.md)
   * [Push and Pull Repository](Push_and_Pull_Repository.md)
   * [Pull previous file versions](Pull_previous_file_versions.md)
+  * [Dealing with unpushed commits](Dealing_with_unpushed_commits.md)
