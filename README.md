@@ -7,3 +7,4 @@ Git is probably one of the top tools I use for code management and something I p
   * [Push and Pull Repository](Push_and_Pull_Repository.md)
   * [Pull previous file versions](Pull_previous_file_versions.md)
   * [Dealing with unpushed commits](Dealing_with_unpushed_commits.md)
+  * Manually fix merge requests - [see this video](https://www.youtube.com/watch?v=g8BRcB9NLp4)
