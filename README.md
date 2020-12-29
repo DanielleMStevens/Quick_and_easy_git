@@ -8,3 +8,4 @@ Git is probably one of the top tools I use for code management and something I p
   * [Pull previous file versions](Pull_previous_file_versions.md)
   * [Dealing with unpushed commits](Dealing_with_unpushed_commits.md)
   * Manually fix merge requests - [see this video](https://www.youtube.com/watch?v=g8BRcB9NLp4)
+  * Grab a file from repo when local was accidently deleted -  git checkout Assembly_and_Mapping_methods_DMS092.md
