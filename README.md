@@ -9,3 +9,7 @@ Git is probably one of the top tools I use for code management and something I p
   * [Dealing with unpushed commits](Dealing_with_unpushed_commits.md)
   * Manually fix merge requests - [see this video](https://www.youtube.com/watch?v=g8BRcB9NLp4)
   * Grab a file from repo when local was accidently deleted -  git checkout Assembly_and_Mapping_methods_DMS092.md
+
+
+
+https://stackoverflow.com/questions/38001223/what-is-the-difference-between-git-rm-cached-and-git-reset-file
