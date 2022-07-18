@@ -16,3 +16,20 @@ To push to current branch
 ```
 git push origin branch_name
 ```
+
+
+random:
+Upload changes:
+Git add -I
+Git commit -m "comment"
+Git push origin main/branch_name
+
+To work with ssh keys
+Git clone rep_name
+Git remote rm origin
+Git remote add origin shh_key_from_github
+
+To start new branch and migrate to it
+
+To go beteen branches
+Git checkout branch_name![image](https://user-images.githubusercontent.com/45525389/179446057-dc5ab6a9-2347-4a95-84e9-cca386d24f79.png)
