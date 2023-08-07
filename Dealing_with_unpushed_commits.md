@@ -1,3 +1,11 @@
+Delete the most recent commit, keeping the work you've done:
+
+    git reset --soft HEAD~1
+    git commit --amend -CHEAD
+    git push --set-upstream origin main
+
+https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github
+
 Remove the files from the git index but keeping in the working directory
 
     # monitor file stauts
@@ -12,10 +20,6 @@ Remove the files from the git index but keeping in the working directory
 https://stackoverflow.com/questions/348170/how-do-i-undo-git-add-before-commit
 https://stackoverflow.com/questions/33610682/git-list-of-staged-files
 
-Delete the most recent commit, keeping the work you've done:
-
-    git reset --soft HEAD~1
-
 
 Delete the most recent commit, destroying the work you've done:
 
@@ -29,4 +33,6 @@ This command will sync the local repository with the remote repository getting r
 
 Remove files from your git repositiory but keepignnin your local directory
 
+
+https://docs.github.com/en/repositories/working-with-files/managing-large-files
 
