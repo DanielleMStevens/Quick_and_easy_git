@@ -1,6 +1,21 @@
+Remove the files from the git index but keeping in the working directory
+
+    # monitor file stauts
+    git status --cached path/to/file
+
+    # remove each file which is causing the conflict
+    git rm --cached path/to/file
+
+    # then issue a new Commit and Push
+
+
+https://stackoverflow.com/questions/348170/how-do-i-undo-git-add-before-commit
+https://stackoverflow.com/questions/33610682/git-list-of-staged-files
+
 Delete the most recent commit, keeping the work you've done:
 
     git reset --soft HEAD~1
+
 
 Delete the most recent commit, destroying the work you've done:
 
@@ -14,8 +29,4 @@ This command will sync the local repository with the remote repository getting r
 
 Remove files from your git repositiory but keepignnin your local directory
 
-Remove the files from the git index but keeping in the working directory
 
-    git rm --cached
-
-Commit and Push
