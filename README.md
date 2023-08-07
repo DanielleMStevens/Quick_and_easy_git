@@ -15,5 +15,8 @@ Git is probably one of the top tools I use for code management and something I p
 https://stackoverflow.com/questions/38001223/what-is-the-difference-between-git-rm-cached-and-git-reset-file
 
 
-Activate zsh 
-control D
+
+```
+# To Activate zsh 
+ control D
+```
