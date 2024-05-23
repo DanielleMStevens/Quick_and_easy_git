@@ -1,7 +1,8 @@
 Version 1: Delete the most recent commit, keeping the work you've done:
+
     git reset --soft HEAD~1
     git status
-    git rest HEAD ./path/to/problem/file
+    git reset HEAD ./path/to/problem/file
 
     # once all files are unstaged
     git commit -m "comment about issue"
