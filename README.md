@@ -19,4 +19,10 @@ https://stackoverflow.com/questions/38001223/what-is-the-difference-between-git-
 ```
 # To Activate zsh 
  control D
+
+# list the branch currently on in git
+git rev-parse --abbrev-ref HEAD
+
+
+https://stackoverflow.com/questions/6245570/how-do-i-get-the-current-branch-name-in-git
 ```
