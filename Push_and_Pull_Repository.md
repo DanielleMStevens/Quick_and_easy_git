@@ -5,16 +5,14 @@ To start working with a project, either one you've created or someone else had c
 To add update and/or new items to directory, we can use the interactive version of git add.
 ```
 git add -i
-```
-
-To add a comment to the commit 
-```
 git commit -m "some comment here"
+git push origin branch_name
 ```
 
-To push to current branch
+
+To pull edits from repo
 ```
-git push origin branch_name
+git pull origin branch_name
 ```
 
 
