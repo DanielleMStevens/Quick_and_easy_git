@@ -47,3 +47,9 @@ If you just had a commit on origin but forget to pull before commiting something
 git pull origin main --rebase
 ```
 
+When merging, you may be asked to make a comment.
+```
+# To edit the editor:
+:wq
+```
+
