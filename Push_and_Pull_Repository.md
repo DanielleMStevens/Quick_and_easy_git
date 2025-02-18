@@ -37,3 +37,13 @@ To go beteen branches
 ```
 Git checkout branch_name
 ```
+
+
+Divergent branches:
+hint: You have divergent branches and need to specify how to reconcile them.
+If you just had a commit on origin but forget to pull before commiting something else locally, but got no conflicts, this one (a simple rebase) will solve it for you
+
+```
+git pull origin main --rebase
+```
+
