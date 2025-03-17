@@ -20,6 +20,15 @@ https://stackoverflow.com/questions/38001223/what-is-the-difference-between-git-
 # To Activate zsh 
  control D
 
+# List all the branches available
+git branch -a
+
+# pulled and update branches on line and need to uppdate on the command line
+git remote prune origin
+```
+
+
+```
 # list the branch currently on in git
 git rev-parse --abbrev-ref HEAD
 
