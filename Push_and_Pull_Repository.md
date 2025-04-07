@@ -53,3 +53,25 @@ When merging, you may be asked to make a comment.
 :wq
 ```
 
+When rebasing fails: reference [link](https://stackoverflow.com/questions/23517464/error-cannot-pull-with-rebase-you-have-unstaged-changes).
+```
+# If you try to push this error
+❯ git push origin main
+To https://github.com/DanielleMStevens/git_repo.git
+ ! [rejected]          main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/DanielleMStevens/git_repo.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+# and try to rebase and get this error
+❯ git pull origin main --rebase
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+
+# instead try to autostash using the below command
+git pull --rebase --autostash
+```
+
+
