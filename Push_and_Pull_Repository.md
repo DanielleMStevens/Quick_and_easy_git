@@ -86,10 +86,8 @@ From https://github.com/DanielleMStevens/repo_name
  * branch              main       -> FETCH_HEAD
 error: cannot lock ref 'refs/remotes/origin/main': is at c8cb1afaa72699e61fe9a6144bd388a977a74e65 but expected 06381f3c69bf52b0f394dadbee3a61ebc9379beb
  ! 06381f3c..c8cb1afa  main       -> origin/main  (unable to update local ref)
-```
 
-Then run:
-```
+# Then run:
 git update-ref -d refs/remotes/origin/[branch-name]
 git pull origin [branch name]
 ```
