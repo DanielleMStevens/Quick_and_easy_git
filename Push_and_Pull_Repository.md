@@ -74,4 +74,25 @@ error: please commit or stash them.
 git pull --rebase --autostash
 ```
 
+If you try to pull and get this kind of error:
+```
+❯ git pull origin main
+remote: Enumerating objects: 178, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Total 178 (delta 4), reused 4 (delta 4), pack-reused 174 (from 1)
+Receiving objects: 100% (178/178), 191.91 MiB | 174.00 KiB/s, done.
+Resolving deltas: 100% (58/58), completed with 4 local objects.
+From https://github.com/DanielleMStevens/repo_name
+ * branch              main       -> FETCH_HEAD
+error: cannot lock ref 'refs/remotes/origin/main': is at c8cb1afaa72699e61fe9a6144bd388a977a74e65 but expected 06381f3c69bf52b0f394dadbee3a61ebc9379beb
+ ! 06381f3c..c8cb1afa  main       -> origin/main  (unable to update local ref)
+```
+
+Then run:
+```
+git update-ref -d refs/remotes/origin/[branch-name]
+git pull origin [branch name]
+```
+
+
 
