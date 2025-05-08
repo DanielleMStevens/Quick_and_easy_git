@@ -1,3 +1,25 @@
+Use this version:
+
+    ```
+    # 1. Undo the most recent commit, keeping the changes staged:
+    git reset --soft HEAD~1
+    
+    # 2. Check the status (optional, for verification):
+    git status
+    
+    # 3. Unstage the problematic large files:
+    git reset HEAD ./07_model_results/04_random_esm2_with_receptor_05_datasets/checkpoint-19.pth
+    git reset HEAD ./07_model_results/04_random_esm2_with_receptor_05_datasets/checkpoint-9.pth
+    # (Repeat for any other large files in that commit)
+    
+    # 4. Once all oversized files are unstaged, create a new commit:
+    git commit -m "Remove large model checkpoints and update commit"
+    
+    # 5. Push the corrected commit to your branch:
+    git push origin your_branch_name
+    ```
+
+
 Version 1: Delete the most recent commit, keeping the work you've done:
 
     git reset --soft HEAD~1
